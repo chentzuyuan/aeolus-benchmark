@@ -1,6 +1,6 @@
 # Aeolus Benchmark: GBDT vs Deep Learning on Flight Delay Prediction
 
-Reproducible benchmark comparing four tree-based (GBDT) models against the seven deep-learning models evaluated in [Xu et al. (2025) — *Aeolus*](https://arxiv.org/abs/2501.04539) on U.S. domestic flight delay prediction.
+Reproducible benchmark comparing four tree-based (GBDT) models against the seven deep-learning models evaluated in [Xu et al. (2025) — *Aeolus*](https://arxiv.org/abs/2510.26616) on U.S. domestic flight delay prediction.
 
 ## Background
 
@@ -82,7 +82,7 @@ The scripts skip already-completed models by reading `checkpoint.json`, so a cra
 
 ## References
 
-- Xu et al. (2025). *Aeolus: A Benchmark for Deep Learning Models on Tabular Flight Delay Data*. arXiv:2501.04539
+- Xu et al. (2025). *Aeolus: A Multi-structural Flight Delay Dataset*. NeurIPS 2025 Datasets and Benchmarks Track. arXiv:2510.26616
 - Grinsztajn et al. (2022). *Why tree-based models still outperform deep learning on tabular data*. NeurIPS 2022.
 
 ## Citation
