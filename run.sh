@@ -4,7 +4,7 @@
 # Re-runnable: already-done models are skipped via checkpoint.json
 
 set -e
-PYTHON=/Users/buttegg/School_Projects/_thesis_env/bin/python3
+PYTHON=/path/to/School_Projects/_thesis_env/bin/python3
 DIR="$(cd "$(dirname "$0")" && pwd)"
 LOGS="$DIR/logs"
 mkdir -p "$LOGS"

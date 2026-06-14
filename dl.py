@@ -19,7 +19,7 @@ warnings.filterwarnings('ignore')
 
 # ── Paths ──────────────────────────────────────────────────────
 HERE = Path(__file__).parent
-DATA = Path('/Users/buttegg/School_Projects/_thesis_env/data')
+DATA = Path('/path/to/School_Projects/_thesis_env/data')
 CKPT = HERE / 'checkpoint.json'
 LOGS = HERE / 'logs'
 LOGS.mkdir(exist_ok=True)
